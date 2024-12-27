@@ -1,0 +1,138 @@
+.text{
+    background-color: rgb(255, 253, 253);
+    
+
+    height: 20px;
+
+}
+
+.nav-bar
+{
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+    display: flex;
+}
+
+.content-box{
+    width: duto;
+    height: auto;
+}
+
+.nav-bar .nav_ul{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    line-height: 40px;
+    font-size: 12px;
+}
+
+.nav-bar .nav_ul li{
+    list-style: none;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.nav-bar .nav_ul span{
+    color: #fff;
+}
+/*藏品展示*/
+
+.content-box h2{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content-box{
+
+    justify-content:space-around ;
+}
+
+.content-box .class-box{
+    margin-left: 350px;
+    display: flex;
+    width: 600px;
+    height: auto;
+}
+.class-box .class {
+    width: 800px;
+    height: 450px;
+    display: flex;
+}
+
+.content-box .view
+{
+    display: flex;
+}
+
+.view img {
+    margin-left: 50px;
+    width: 600px;
+    height: 450px;
+    display: flex;
+}
+
+.cp {
+    background-color: bisque;
+    display: flex;
+    width: 800px;
+    height: 250px;
+    justify-content: space-around;
+    margin:auto;
+}
+
+
+.cp img{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.cp-text{
+    font-size: 18px;
+    background-color: bisque;
+    display: flex;
+    width: 800px;
+    height: 50px;
+    justify-content: space-around;
+    margin:auto;
+}
+/*建筑展览*/
+
+.str {
+    background-color: bisque;
+    display: flex;
+    width: 800px;
+    height: 250px;
+    justify-content: space-around;
+    margin:auto;
+}
+
+
+.str img{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.str-text{
+    font-size: 18px;
+    background-color: bisque;
+    display: flex;
+    width: 800px;
+    height: 50px;
+    justify-content: space-around;
+    margin:auto;
+}
+.introduce{
+    text-align: center;
+    font-size: 18px;
+    background-color: bisque;
+    display: flex;
+    width: 1000px;
+    height: auto;
+    justify-content: space-around;
+    margin:auto;
+    justify-content: center; /* 水平居中 */
+    align-items: center;    /* 垂直居中 */
+}
